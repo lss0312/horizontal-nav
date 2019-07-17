@@ -3,7 +3,7 @@ html {
   background-color: #dbd6cf;
 }
 
-, *::before, *::after {
+*::before, *::after {
   box-sizing: inherit;
 }
 
@@ -29,8 +29,7 @@ nav {
 
 nav li {
   display: inline-block;
-  position: center;
-  list-style: none;
+  list-style-type: none;
 }
 
 li a {
