@@ -16,7 +16,7 @@ body {
   border-right-width: 0;
   border-left-width: 0;
   border-bottom-width: .15em;
-  margin: .3em;
+  margin:0 0 .3em;
 }
 
 header {
