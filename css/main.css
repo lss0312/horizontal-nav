@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+}
+
+, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display:block;
+  padding: .6em;
+  background-color: #79756f;
+  border:solid #595652;
+  margin: 0 0 .3em 0;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Bevan', cursive;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  position: center;
+  list-style: none;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #713837;
+  padding:.5em .75em;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #f33;
+}
