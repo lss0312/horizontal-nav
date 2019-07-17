@@ -12,7 +12,14 @@ body {
   padding: .6em;
   background-color: #79756f;
   border: solid #595652;
-  margin: .3em;
+  border-top-width: .15em;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: .15em;
+  margin: 0 0 .3em;
+}
+
+header {
   line-height: 1.5;
 }
 
@@ -25,6 +32,11 @@ h1 {
 
 nav {
   text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  margin:.3em;
 }
 
 nav li {
@@ -40,6 +52,7 @@ li a {
   background-color: #713837;
   padding: .5em .75em;
   border-radius: 5px;
+  font-weight: bold;
 }
 
 a:hover {
