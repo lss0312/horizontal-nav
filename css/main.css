@@ -3,7 +3,7 @@ html {
   background-color: #dbd6cf;
 }
 
-*::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -16,7 +16,7 @@ body {
   border-right-width: 0;
   border-left-width: 0;
   border-bottom-width: .15em;
-  margin: 0 0 .3em;
+  margin: .3em;
 }
 
 header {
@@ -36,7 +36,7 @@ nav {
 }
 
 nav ul {
-  margin:.3em;
+  margin: .3em;
 }
 
 nav li {
