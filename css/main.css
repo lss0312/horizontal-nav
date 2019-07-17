@@ -8,16 +8,16 @@ html {
 }
 
 body {
-  display:block;
+  display: block;
   padding: .6em;
   background-color: #79756f;
-  border:solid #595652;
-  margin: 0 0 .3em 0;
+  border: solid #595652;
+  margin: .3em;
   line-height: 1.5;
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, serif;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -38,7 +38,7 @@ li a {
   font-family: sans-serif;
   color: #fff;
   background-color: #713837;
-  padding:.5em .75em;
+  padding: .5em .75em;
   border-radius: 5px;
 }
 
